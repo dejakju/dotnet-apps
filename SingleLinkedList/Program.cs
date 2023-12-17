@@ -2,9 +2,9 @@
 {
     static class Program
     {
-        static int Main(string[] args)
+        static int Main()
         {
-            SingleLinkedList sll = new SingleLinkedList();
+            SingleLinkedList sll = new();
 
             sll.insert(1);
             sll.insert(2);
